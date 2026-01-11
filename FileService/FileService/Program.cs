@@ -11,8 +11,18 @@ namespace FileService
 {
     internal class Program
     {
+        private static Reader reader;
+        private static string[] StartState;
+
+
+
+
         static void Main(string[] args)
         {
+
+            
+
+
             string url = @"C:\Users\Emre\Desktop\Hot-Reload-Uygulaması\TestFiles";
 
 
@@ -26,11 +36,17 @@ namespace FileService
             {
                 using (FileSystemWatcher watcher = new FileSystemWatcher(url))
                 {
+
+                    
                     
                     watcher.NotifyFilter = NotifyFilters.LastWrite| NotifyFilters.DirectoryName | NotifyFilters.FileName;
 
 
                     watcher.Filter = "*.txt";
+
+
+
+
 
                     watcher.Changed += OnChange;
                     watcher.Deleted += OnDelete;
@@ -44,6 +60,13 @@ namespace FileService
     
         private static void OnChange(object sender,FileSystemEventArgs e)
         {
+
+            reader = new Reader(e.FullPath);
+            
+
+
+
+
 
             Console.WriteLine($"File has been changed : {e.Name}");
             using(WatcherDbEntities db = new WatcherDbEntities())
