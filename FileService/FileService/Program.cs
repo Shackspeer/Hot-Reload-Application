@@ -45,14 +45,14 @@ namespace FileService
         private static void OnChange(object sender,FileSystemEventArgs e)
         {
 
-            Console.WriteLine($"File changed : {e.Name}");
+            Console.WriteLine($"File has been changed : {e.Name}");
             using(WatcherDbEntities db = new WatcherDbEntities())
             {
 
                 ActionLogs log = new ActionLogs()
                 {
                     Context = "Update",
-                    Description = "File has updated",
+                    Description = "File has been updated",
                     Path = $"\\{e.Name}",
                     Date = DateTime.Now,
                 };
@@ -65,13 +65,13 @@ namespace FileService
         }
         private static void OnDelete(object sender, FileSystemEventArgs e)
         {
-            Console.WriteLine($"File removed : {e.Name}");
+            Console.WriteLine($"File has been removed : {e.Name}");
             using(WatcherDbEntities db = new WatcherDbEntities())
             {
                 ActionLogs log = new ActionLogs()
                 {
                     Context = "Delete",
-                    Description=  "File has removed",
+                    Description=  "File has been removed",
                     Path = $"\\{e.Name}",
                     Date = DateTime.Now,    
                 };
