@@ -4,6 +4,7 @@
     <EntitySetMapping Name="ActionLogs">
       <EntityTypeMapping TypeName="WatcherDbModel.ActionLogs">
         <MappingFragment StoreEntitySet="ActionLogs">
+          <ScalarProperty Name="Date" ColumnName="Date" />
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="Context" ColumnName="Context" />
           <ScalarProperty Name="Description" ColumnName="Description" />

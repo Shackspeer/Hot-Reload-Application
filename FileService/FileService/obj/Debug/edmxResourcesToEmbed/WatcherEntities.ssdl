@@ -8,6 +8,7 @@
     <Property Name="Context" Type="nvarchar" MaxLength="40" Nullable="false" />
     <Property Name="Description" Type="nvarchar" MaxLength="40" Nullable="false" />
     <Property Name="Path" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Date" Type="datetime" />
   </EntityType>
   <EntityContainer Name="WatcherDbModelStoreContainer">
     <EntitySet Name="ActionLogs" EntityType="Self.ActionLogs" Schema="dbo" store:Type="Tables" />

@@ -18,5 +18,6 @@ namespace FileService
         public string Context { get; set; }
         public string Description { get; set; }
         public string Path { get; set; }
+        public Nullable<System.DateTime> Date { get; set; }
     }
 }

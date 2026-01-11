@@ -8,6 +8,7 @@
     <Property Name="Context" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Description" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Path" Type="String" MaxLength="40" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Precision="3" />
   </EntityType>
   <EntityContainer Name="WatcherDbEntities" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="ActionLogs" EntityType="Self.ActionLogs" />

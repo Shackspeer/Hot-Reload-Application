@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|c:\\users\\emre\\desktop\\hot-reload-uygulamas\u0131\\fileservice\\fileservice\\watcherentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\fileservice\\watcherentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
       "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\watcherentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
@@ -57,7 +57,7 @@
               "RelativeDocumentMoniker": "FileService\\Program.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Program.cs",
               "RelativeToolTip": "FileService\\Program.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAkwEMAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAmwB0AAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T03:13:41.329Z",
               "EditorCaption": ""
