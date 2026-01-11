@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WatcherDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ActionLogs">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Context" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Description" Type="nvarchar" MaxLength="40" Nullable="false" />
+    <Property Name="Path" Type="nvarchar" MaxLength="40" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="WatcherDbModelStoreContainer">
+    <EntitySet Name="ActionLogs" EntityType="Self.ActionLogs" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

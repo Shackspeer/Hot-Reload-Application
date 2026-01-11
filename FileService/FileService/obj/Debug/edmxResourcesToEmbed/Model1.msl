@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="WatcherDbModelStoreContainer" CdmEntityContainer="FileServiceDbEntities">
+    <EntitySetMapping Name="ActionLogs">
+      <EntityTypeMapping TypeName="WatcherDbModel.ActionLogs">
+        <MappingFragment StoreEntitySet="ActionLogs">
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Context" ColumnName="Context" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
