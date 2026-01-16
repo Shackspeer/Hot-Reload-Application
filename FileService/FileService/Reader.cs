@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FileService
 {
-    internal class Reader
+    internal class Reader 
     {
 
         private string[] File1; 
@@ -15,7 +15,7 @@ namespace FileService
 
         public Reader(string url)
         {
-            this.File1 = File.ReadAllLines(url);
+            this.File1 = ReadLinesSafe(url);
         }
 
 
@@ -62,6 +62,27 @@ namespace FileService
                 return new { state = false, message = "Dosya okunurken bir hata oluştu." };
             }
         }
+
+
+        
+        private static string[] ReadLinesSafe(string path)
+        {
+            System.Threading.Thread.Sleep(100);
+
+            using(FileStream fs = new FileStream(path,FileMode.Open,FileAccess.Read,FileShare.ReadWrite))
+            using(StreamReader sr = new StreamReader(fs,Encoding.UTF8))
+            {
+                List<string> lines = new List<string>();
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    lines.Add(line);
+                }
+                return lines.ToArray();
+            }
+        }
+           
+
 
 
 

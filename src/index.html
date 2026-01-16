@@ -1,0 +1,85 @@
+<html>
+
+<script>
+    const socket = new WebSocket('ws://localhost:8081');
+
+    socket.onopen = () => {
+        console.log('Hot Reload: Sunucu bağlanıldı.');
+    };
+
+    socket.onmessage = (e) => {
+        if (e.data === "reload") {
+            console.log('Hot Reload : Değişiklik algılandı, sayfa yenileniyor...');
+            location.reload();
+        }
+    }
+
+    socket.onclose = () => {
+        console.warn('Hot Reload: Sunucu bağlantısı kesildi.');
+    };
+
+
+    socket.onerror = (e) => {
+        console.error('Hot Reload hatası:', error);
+    }
+
+</script>
+
+<head>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .container {
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+            background-color: #999;
+            color: black;
+            display: grid;
+        }
+
+        p {
+            padding: 20px;
+            text-align: center;
+            font-size: 20;
+            font-weight: 700;
+            font-family: 'Courier New', Courier, monospace;
+            letter-spacing: -1;
+            transition: background-color 1s ease, color 1s ease;
+        }
+
+        p:hover {
+            color: whitesmoke;
+            background-color: black;
+        }
+
+        p:hover::after {
+            color: black;
+            background-color: transparent;
+        }
+    </style>
+</head>
+
+
+
+
+
+
+<body>
+    <div class="container">
+        <p>Hello</p>
+        <p>How its going everybody</p>
+        <p>hello</p>
+        <p>Whatsupp</p>
+        <p>something goes wrong</p>
+        <p>and i dont know what it is</p>
+        <p>And</p>
+        <p>I was accomplished university</p>
+    </div>
+</body>
+
+</html>
