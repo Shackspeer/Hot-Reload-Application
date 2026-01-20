@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|c:\\users\\emre\\desktop\\hot-reload-uygulamas\u0131\\fileservice\\fileservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\fileservice\\watcherentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\watcherentities.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\fileservice\\socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\fileservice\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\reader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\fileservice\\socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\socket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|c:\\users\\emre\\desktop\\hot-reload-uygulamas\u0131\\fileservice\\fileservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D43D082-D265-429A-BBB7-B6D9715BC2C7}|FileService\\FileService.csproj|solutionrelative:fileservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,52 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Socket.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Socket.cs",
               "RelativeDocumentMoniker": "FileService\\Socket.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Socket.cs",
               "RelativeToolTip": "FileService\\Socket.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-13T21:37:48.719Z"
+              "WhenOpened": "2026-01-13T21:37:48.719Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Reader.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Reader.cs",
               "RelativeDocumentMoniker": "FileService\\Reader.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Reader.cs",
               "RelativeToolTip": "FileService\\Reader.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEoAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T15:27:52.147Z"
+              "WhenOpened": "2026-01-11T15:27:52.147Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WatcherEntities.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\WatcherEntities.edmx",
-              "RelativeDocumentMoniker": "FileService\\WatcherEntities.edmx",
-              "ToolTip": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\WatcherEntities.edmx [Diagram1]",
-              "RelativeToolTip": "FileService\\WatcherEntities.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2026-01-10T18:26:45.012Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Program.cs",
               "RelativeDocumentMoniker": "FileService\\Program.cs",
               "ToolTip": "C:\\Users\\Emre\\Desktop\\Hot-Reload-Uygulamas\u0131\\FileService\\FileService\\Program.cs",
               "RelativeToolTip": "FileService\\Program.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAmwHoAAAAqAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-10T03:13:41.329Z",
               "EditorCaption": ""

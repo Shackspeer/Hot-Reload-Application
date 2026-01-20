@@ -58,54 +58,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActionLogs.cs">
-      <DependentUpon>WatcherEntities.tt</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Reader.cs" />
     <Compile Include="Socket.cs" />
-    <Compile Include="WatcherEntities.Context.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>WatcherEntities.Context.tt</DependentUpon>
-    </Compile>
-    <Compile Include="WatcherEntities.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>WatcherEntities.tt</DependentUpon>
-    </Compile>
-    <Compile Include="WatcherEntities.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>WatcherEntities.edmx</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <EntityDeploy Include="WatcherEntities.edmx">
-      <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>WatcherEntities.Designer.cs</LastGenOutput>
-    </EntityDeploy>
-    <None Include="WatcherEntities.edmx.diagram">
-      <DependentUpon>WatcherEntities.edmx</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="WatcherEntities.Context.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>WatcherEntities.edmx</DependentUpon>
-      <LastGenOutput>WatcherEntities.Context.cs</LastGenOutput>
-    </Content>
-    <Content Include="WatcherEntities.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>WatcherEntities.edmx</DependentUpon>
-      <LastGenOutput>WatcherEntities.cs</LastGenOutput>
-    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

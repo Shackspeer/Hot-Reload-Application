@@ -36,46 +36,13 @@ namespace FileService
 
             reader = new Reader(e.FullPath);
             _socket.SendReloadSignal();
-
-
-
-
             Console.WriteLine($"File has been changed : {e.Name}");
-            using(WatcherDbEntities db = new WatcherDbEntities())
-            {
-                System.Threading.Thread.Sleep(100);
-                ActionLogs log = new ActionLogs()
-                {
-                    Context = "Update",
-                    Description = "File has been updated",
-                    Path = $"\\{e.Name}",
-                    Date = DateTime.Now,
-                };
-
-                
-                
-                db.ActionLogs.Add(log);
-                db.SaveChanges();
-            }
+            
         }
         private static void OnDelete(object sender, FileSystemEventArgs e)
         {
             Console.WriteLine($"File has been removed : {e.Name}");
-            using (WatcherDbEntities db = new WatcherDbEntities())
-            {
-                
-
-                ActionLogs log = new ActionLogs()
-                {
-                    Context = "Delete",
-                    Description = "File has been removed",
-                    Path = $"\\{e.Name}",
-                    Date = DateTime.Now,
-                };
-                db.ActionLogs.Add(log);
-                db.SaveChanges();
-
-            }
+            
         }
 
 
